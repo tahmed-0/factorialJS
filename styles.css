@@ -1,0 +1,35 @@
+body {
+
+    height: 100vh;
+    background-color: #447284
+}
+
+.container{
+    background-color: #e6c8c8;
+    padding: 30px 30px;
+    width: 400px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 5px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 25px 25px 30px rgba(0, 0, 0, 0.20);
+}
+
+.container h1 {
+    text-align: center;
+}
+
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.row span {
+    font-weight: 500;
+}
+
